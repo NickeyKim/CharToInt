@@ -79,8 +79,8 @@ namespace StrToInt
 		*/
 		public static void Main (string[] args)
 		{
-			Console.WriteLine (StrToInt ("-327"));
-			Console.WriteLine (intToStr (-12312412));
+			Console.WriteLine (StrToInt ("-327")*0 +"->if 0, it's integer");
+			Console.WriteLine (intToStr (-12312412)+" is "+ intToStr(-12312412).GetType());
 			Console.WriteLine ("Hello World!");
 		}
 	}
